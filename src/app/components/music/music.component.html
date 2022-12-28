@@ -1,0 +1,159 @@
+
+<!-- <div class="bg-white" *ngIf="artist$ | async as artists">
+  <div class="bg-white" *ngFor="let artist of artists">
+      <img src="{{artist.picture}}" alt="">
+      <p class="
+      
+      ">{{artist.name}}</p>
+  </div>
+</div> -->
+
+<div class="container-fluid mt-5">
+    <h2 class="title text-white">Populares</h2>
+    <div class="row-cols-1 row-cols-md-5 g-4 d-flex flex-row mt-4">
+        <div class="col-md-2 col-sm-6 col-12">
+            <div class="card card-popular border-black ">
+                <div class="card-popular-avatar">
+                  <img class="img-fluid" src="https://e-cdn-images.dzcdn.net/images/cover/ba0e0aeb6e584b790e577c0e09db2d60/264x264-000000-80-0-0.jpg" alt="Avatar" />
+                </div>
+                <div class="card-footer ">
+                  <h6>FELIZ CUMPLEAÑOS FERXOO</h6>
+                </div>    
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-6 col-12">
+            <div class="card card-popular border-white border-0">
+                <div class="card-popular-avatar">
+                  <img class="img-fluid" src="https://cdns-images.dzcdn.net/images/cover/eb3dcd85fc4f0e8a90ef35f26ae39bd1/264x264.jpg" alt="Avatar" />
+                </div>
+                <div class="card-footer">
+                  <h6>SIXDO</h6>
+                </div>    
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-6 col-12">
+            <div class="card card-popular border-white border-0">
+                <div class="card-popular-avatar">
+                  <img class="img-fluid" src="https://e-cdn-images.dzcdn.net/images/cover/b29d1070377b784384c2456093f96a66/264x264-000000-80-0-0.jpg" alt="Avatar" />
+                </div>
+                <div class="card-footer">
+                  <h6 >Un verano sin ti</h6>
+                </div>    
+            </div>
+        </div> 
+        <div class="col-md-2 col-sm-6 col-12">
+            <div class="card card-popular border-white border-0">
+                <div class="card-popular-avatar">
+                  <img class="img-fluid" src="https://e-cdn-images.dzcdn.net/images/cover/05ba08c8bc9de7e2e1b545916c7d1078/264x264-000000-80-0-0.jpg" alt="Avatar" />
+                </div>
+                <div class="card-footer">
+                  <h6>Monotonia</h6>
+                </div>    
+            </div>
+        </div> 
+        <div class="col-md-2 col-sm-6 col-12">
+            <div class="card card-popular border-white border-0">
+                <div class="card-popular-avatar">
+                  <img class="img-fluid" src="https://e-cdn-images.dzcdn.net/images/cover/89e8fe3b7170353c30ec18d323738174/264x264-000000-80-0-0.jpg" alt="Avatar" />
+                </div>
+                <div class="card-footer">
+                  <h6>No hay nadie mas</h6>
+                </div>    
+            </div>
+        </div>
+        <div class="col-md-2 col-sm-6 col-12">
+            <div class="card card-popular border-white border-0">
+                <div class="card-popular-avatar">
+                  <img class="img-fluid" src="https://e-cdn-images.dzcdn.net/images/cover/6468d5adca0eb6d157f42a309b6e6b2e/264x264-000000-80-0-0.jpg" alt="Avatar" />
+                </div>
+                <div class="card-footer">
+                  <h6>Provenza</h6>
+                </div>    
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid mt-5">
+  <h3 class="text-white">Trending</h3>
+  <div class="row d-flex flex-row mt-4">
+    <div class="col">
+      
+        <iframe class="deezer-widget bg-dark" title="deezer-widget" src="https://widget.deezer.com/widget/dark/album/347534147" width="25%" height="75" frameborder="0" allowtransparency="true" allow="encrypted-media; clipboard-write"></iframe>
+      
+    </div>
+    
+    
+  </div>
+</div>
+
+<div class="container-fluid mt-5">
+    <h3 class="title text-white">Artistas</h3>
+    <div class="row-cols-1 row-cols-md-5 g-4 mt-4 d-flex flex-row">
+      <div class="col-md-2 mr-4">
+        <div class="card card-custom border-white border-0">
+          <div class="card-custom-avatar">
+            <a href=""><img class="img-fluid" src="https://e-cdn-images.dzcdn.net/images/artist/d3c0b6e0ac02c2f74203b2d5c5507240/264x264-000000-80-0-0.jpg" alt="Avatar" /></a>
+          </div>
+          <div class="card-footer text-center">
+            <h6><a href="">FEID</a></h6>
+          </div>    
+        </div>
+        <!-- Copy until here -->
+      </div>
+      <div class="col-md-2 mr-4">
+        <!-- Add a style="height: XYZpx" to div.card to limit the card height and display scrollbar instead -->
+        <div class="card card-custom border-white border-0">
+          <div class="card-custom-avatar">
+            <a href=""><img class="img-fluid" src="https://e-cdn-images.dzcdn.net/images/artist/7a7830dd8239dbdb014b04db4751c52d/264x264-000000-80-0-0.jpg" alt="Avatar" /></a>
+          </div>
+          <div class="card-footer text-center">
+            <h6><a href="">Karol G</a></h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 mr-4">
+        <!-- Add a style="height: XYZpx" to div.card to limit the card height and display scrollbar instead -->
+        <div class="card card-custom border-white border-0">
+          <div class="card-custom-avatar">
+            <a href=""><img class="img-fluid" src="https://yt3.ggpht.com/u-yyN_PcsLVYp_lSwJaKrBy2NBvqqLt2Elc5FqQc70NDTjazzBbIGhJdlYLsxkTYXqkvm_J6tA=s88-c-k-c0x00ffffff-no-rj" alt="Avatar" /></a>
+          </div>
+          <div class="card-footer text-center">
+            <h6><a href="">BLESSD</a></h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 mr-4">
+        <!-- Add a style="height: XYZpx" to div.card to limit the card height and display scrollbar instead -->
+        <div class="card card-custom border-white border-0">
+          <div class="card-custom-avatar">
+            <a href=""><img class="img-fluid" src="https://e-cdn-images.dzcdn.net/images/artist/f21443a563e5d03ddf83ed1e6a12d581/264x264-000000-80-0-0.jpg" alt="Avatar" /></a>
+          </div>
+          <div class="card-footer text-center">
+            <h6><a href="">BAD BUNNY</a></h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 mr-4">
+        <!-- Add a style="height: XYZpx" to div.card to limit the card height and display scrollbar instead -->
+        <div class="card card-custom border-white border-0">
+          <div class="card-custom-avatar">
+            <a href=""><img class="img-fluid" src="https://e-cdn-images.dzcdn.net/images/artist/5e17a1209254de68d7edcf9cccccdf67/264x264-000000-80-0-0.jpg" alt="Avatar" /></a>
+          </div>
+          <div class="card-footer text-center">
+            <h6><a href="">MALUMA</a></h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-2 mr-4">
+        <!-- Add a style="height: XYZpx" to div.card to limit the card height and display scrollbar instead -->
+        <div class="card card-custom border-white border-0">
+          <div class="card-custom-avatar">
+            <a href=""><img class="img-fluid" src="https://e-cdn-images.dzcdn.net/images/artist/d84c1f1c00a032e16d4d00af43db53c0/264x264-000000-80-0-0.jpg" alt="Avatar" /></a>
+          </div>
+          <div class="card-footer text-center">
+            <h6><a href="">ANDRES CEPEDA</a></h6>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>

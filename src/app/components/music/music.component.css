@@ -1,0 +1,62 @@
+.card-popular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 9.8rem;
+}
+
+.card-popular:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.card-custom-avatar img {
+  border-radius: 50%;
+  box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+  top: 100px;
+  left: 1rem;
+  width: 200px;
+  height: 200px;
+}
+
+
+.img-fluid{
+  width: 150px;
+  border-radius: 20px;
+}
+
+.card-footer {
+  width: max-content;
+  
+}
+
+
+.deezer-widget {
+  background-color: white;
+}
+
+.card-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  
+}
+
+.card-custom-avatar:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.card-custom a {
+  text-decoration: none;
+  color: white;
+}
+
+.card-custom a:hover {
+  text-decoration: underline;
+  color: rgba(63, 127, 191, 1);
+}

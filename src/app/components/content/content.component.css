@@ -1,0 +1,44 @@
+/*
+   * Navbar
+   */
+  .navbar {
+    height: 5rem;
+  }
+  
+  .navbar .form-control {
+    padding: .75rem 1rem;
+  }
+
+  .navbar .navbar-toggler {
+    top: .25rem;
+    right: 1rem;
+  }
+  
+  .form-control {
+    background-color: #000;
+    color: #fff;
+    border:none;
+    
+  }
+  
+  .form-control:focus {
+    border-color: none;
+    border-bottom: 1px solid #000;
+  }
+
+  .input-headers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+ .input-search {
+    background-color: black;
+ }
+
+  .fa-magnifying-glass {
+    position: relative;
+    left: -1vh;
+    color: white;
+  }
+  

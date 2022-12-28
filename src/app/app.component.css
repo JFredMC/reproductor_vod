@@ -1,0 +1,36 @@
+/* .container-principal{
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+main{
+    width: calc(100% - 499px);
+}
+
+app-header{
+    width: 100%;
+    top: 0;
+    height: 4rem;
+    z-index: 2;
+}
+
+app-sidebar {
+    position: absolute;
+    height: calc(100vh - 4rem);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(34, 34, 34, 1);
+    border-top: 1px solid gray;
+}
+
+app-content{
+    position: absolute;
+    left: 12.58rem;
+    width: 89.40%;
+    width: 106.33rem;
+    height: calc(100vh - 4rem);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgba(34, 34, 34, 1);
+    border-top: 1px solid gray;
+    
+}  */
